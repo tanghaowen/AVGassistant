@@ -1,4 +1,5 @@
-# AVG assistant for windows tablet
+AVG assistant for windows tablet
+==========
 > windows 8のタブレットでAVGゲームをプレイする時、full screen機能を補足するプログラムです。
 
 
@@ -13,3 +14,8 @@
 
 最後に、ゲームの画面が下のように変換します。左上と右下にゲームをコントロールする必要な機能がついています。
 
+## 問題点
+DirectXで作ったゲームでは、簡単にゲームウィンドウのtitlebarとかを消すことができません。
+だから、新たな方法が必要。
+ここで、windows開発の上級手法*API hook*が必要。
+詳しい方法は私の[GameWindowAPIhooker](https://github.com/tanghaowen/GameWindowAPIhooker)を見てください
